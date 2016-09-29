@@ -1,31 +1,31 @@
-*somige teksten zijn niet vertaalt om zo betere aansluiting te hebben met het programma*
+*somige teksten zijn niet vertaald  om zo betere aansluiting te hebben met het programma*
 
-
-*Let op: gelieve niet om hulp te vragen in de commentaren van deze tutorial! In plaats daarvan, ga dan naar onze [forum][58] om het best mogelijke antwoord op de eventuele vragen te krijgen. *
+*Let op: gelieve niet om hulp te vragen in de reacties van deze tutorial! In plaats daarvan, ga naar ons [forum](https://www.scirra.com/forum/) om het best mogelijke antwoord op de eventuele vragen te krijgen.*
 
 #Alternatieve tutorials#
 
-Er is een alternatieve gids voor beginners: [How to make a platform game][60], gericht op het maken van een jump-and-run platformen in plaats van een top-down shooter. U kunt beginnen met les, maar we raden u beide aan om een goede idee te hebben hoe beide soorten spel kunt maken!
+Er is een alternatieve gids voor beginners: [How to make a platform game](https://www.scirra.com/tutorials/253/how-to-make-a-platform-game), gericht op het maken van een jump-and-run platformer in plaats van een top-down shooter. Het maakt niet uit met welke tutorial je begint, maar we raden aan om beide tutorials te volgen om een goede idee te hebben hoe je beide typen games kunt maken!
 
-Er is ook [How to make an Asteroids clone in under 100 events][61] door Kyatric which is een beetje meer geavanceerde, maar ook zeer gedetailleerd.
+Er is ook [How to make an Asteroids clone in under 100 events](https://www.scirra.com/tutorials/358/asteroid-clone-in-less-than-100-events) door Kyatric. Die is wat geavanceerder, maar ook zeer gedetailleerd.
 
-##installeren Construct 2##
+##Installeren Construct 2##
 
-Als u nog niet hebt gedaan, pak een exemplaar van de nieuwste release van Construct 2 [here][1].  De Construct 2 editor is alleen Windows, maar de games die je maakt kunnen overal op draaien, zoals Mac, Linux of iPad. Construct 2 kan ook op beperkte gebruikersaccounts worden geïnstalleerd. Het is ook draagbaar, zodat u ook kunt installeren op een USB memorie stick bijvoorbeeld, en je kunt het mee nemen! 
+Als je het nog niet hebt gedaan, download een exemplaar van de nieuwste release van Construct 2 [here](https://www.scirra.com/construct2/releases/new).  De Construct 2 editor is alleen beschikbaar voor Windows, maar de games die je maakt kunnen overal op draaien, zoals Mac, Linux of iPad. Construct 2 kan ook op beperkte gebruikersaccounts worden geïnstalleerd. Het is ook draagbaar, zodat u ook kunt installeren op een USB-stick bijvoorbeeld, zodat je het kunt meenemen! 
 
-##Aan de slag## 
+##Aan de slag##
 
-Nu je alles hebt ingesteld, start Construct 2 Klik op de * File *-toets, en kies * New *.
-[The File menu 'New' button.][2]
+Nu je alles hebt ingesteld, start Construct 2 Klik op de *File*-toets, en kies *New*.
 
-In de *New Project* dialoogvenster, hoeft u niets te veranderen. Klikt *Create project*. Construct 2 zal het gehele project in een enkele *.capx* file houden voor ons. Je zou nu naar een lege *lay-out* moeten kijken - de lay-out is een ontwerp weergave waarin u objecten kunt maken en plaatsen. Denk aan een lay-out als een spelniveau of menu scherm. Met andere software, kan dit ook wel een *room*, *scene* of *frame* worden genoemd.
+![The File menu 'New' button.](https://www.scirra.com/images/articles/filenew.png)
 
-##Invoegen van objecten##
-#Betegelde achtergrond#
+In het *New Project* dialoogvenster, hoef je niets te veranderen. Klik op *Create project*. Construct 2 zal het gehele project voor ons in een enkele *.capx* file bewaren. Je zou nu naar een lege *lay-out* moeten kijken - de lay-out is een ontwerpweergave waarin je objecten kunt maken en plaatsen. Denk aan een lay-out als een level of menuscherm. Met andere software, kan dit ook wel een *room*, *scene* of *frame* worden genoemd.
 
-Het eerste wat we willen is een herhalende achtergrond tegel.  De *Genoemd Background* object kan dit voor ons doen. Eerste, hier is je achtergrond, textuur - klik met de rechtermuisknop en sla het op uw computer ergens ( wel onthouden je hebt deze straks weer nodig):
+#Invoegen van objecten#
+##Betegelde achtergrond##
 
-[The Tiled Background texture][3]
+Het eerste wat we willen is een herhalende achtergrond tegel. De *Genoemd Background* object kan dit voor ons doen. Allereerst, is hier je achtergrondtextuur - klik erop met de rechtermuisknop en sla het ergens op je computer op ( wel onthouden, je hebt deze straks weer nodig):
+
+![The Tiled Background texture](https://www.scirra.com/images/articles/bg.png)
 
 Nu, **dubbel klik**  in de lay-out om een nieuw object in te voegen. (Later, als het vol is, kunt u ook met de rechtermuisknop openen en kies *Insert new object*.) Zodra de *Insert new object* dialoogvenster verschijnt, ** dubbelklik op de titel Background object** om deze te plaatsen.
 
