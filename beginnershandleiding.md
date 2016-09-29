@@ -1,4 +1,6 @@
-*somige teksten zijn niet vertaald  om zo betere aansluiting te hebben met het programma*
+[Beginnershandleiding voor Construct 2](https://www.scirra.com/tutorials/37/beginners-guide-to-construct-2) oorspronkelijk gepubliceerd door [Ashley](https://www.scirra.com/users/ashley)
+
+*Sommige teksten zijn niet vertaald  om zo betere aansluiting te hebben met het programma*
 
 *Let op: gelieve niet om hulp te vragen in de reacties van deze tutorial! In plaats daarvan, ga naar ons [forum](https://www.scirra.com/forum/) om het best mogelijke antwoord op de eventuele vragen te krijgen.*
 
