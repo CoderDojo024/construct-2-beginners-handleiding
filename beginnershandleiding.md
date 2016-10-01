@@ -6,48 +6,49 @@
 
 #Alternatieve tutorials#
 
-Er is een alternatieve gids voor beginners: [How to make a platform game](https://www.scirra.com/tutorials/253/how-to-make-a-platform-game), gericht op het maken van een jump-and-run platformer in plaats van een top-down shooter. Het maakt niet uit met welke tutorial je begint, maar we raden aan om beide tutorials te volgen om een goede idee te hebben hoe je beide typen games kunt maken!
+Er is een alternatieve handleiding voor beginners: [How to make a platform game](https://www.scirra.com/tutorials/253/how-to-make-a-platform-game), gericht op het maken van een jump-and-run platformer in plaats van een top-down shooter. Het maakt niet uit met welke tutorial je begint, maar we raden aan om beide tutorials te volgen om een goed idee te krijgen van hoe je beide typen games kunt maken!
 
 Er is ook [How to make an Asteroids clone in under 100 events](https://www.scirra.com/tutorials/358/asteroid-clone-in-less-than-100-events) door Kyatric. Die is wat geavanceerder, maar ook zeer gedetailleerd.
 
 ##Installeren Construct 2##
 
-Als je het nog niet hebt gedaan, download een exemplaar van de nieuwste release van Construct 2 [here](https://www.scirra.com/construct2/releases/new).  De Construct 2 editor is alleen beschikbaar voor Windows, maar de games die je maakt kunnen overal op draaien, zoals Mac, Linux of iPad. Construct 2 kan ook op beperkte gebruikersaccounts worden geïnstalleerd. Het is ook draagbaar, zodat u ook kunt installeren op een USB-stick bijvoorbeeld, zodat je het kunt meenemen! 
+Als je het nog niet hebt gedaan, download [hier](https://www.scirra.com/construct2/releases/new) een exemplaar van de nieuwste release van Construct 2. De Construct 2 editor is alleen beschikbaar voor Windows, maar de games die je maakt kunnen overal op draaien, zoals Mac, Linux of iPad. Construct 2 kan ook op beperkte gebruikersaccounts worden geïnstalleerd. Je kunt het ook op een USB-stick installeren, zodat je Construct 2 kunt meenemen! 
 
 ##Aan de slag##
 
-Nu je alles hebt ingesteld, start Construct 2 Klik op de *File*-toets, en kies *New*.
+Nu je alles hebt ingesteld, start Construct 2. Klik op de *File*-toets, en kies *New*.
 
 ![The File menu 'New' button.](https://www.scirra.com/images/articles/filenew.png)
 
-In het *New Project* dialoogvenster, hoef je niets te veranderen. Klik op *Create project*. Construct 2 zal het gehele project voor ons in een enkele *.capx* file bewaren. Je zou nu naar een lege *lay-out* moeten kijken - de lay-out is een ontwerpweergave waarin je objecten kunt maken en plaatsen. Denk aan een lay-out als een level of menuscherm. Met andere software, kan dit ook wel een *room*, *scene* of *frame* worden genoemd.
+In het *New Project* dialoogvenster hoef je niets te veranderen. Klik op *Create project*. Construct 2 slaat het hele project voor ons op in een enkel *.capx* bestand. Je zou nu naar een lege *lay-out* moeten kijken - de lay-out is een ontwerpweergave waarin je objecten kunt maken en plaatsen. Denk aan een lay-out als een level of menuscherm. Met andere software, kan dit ook wel een *room*, *scene* of *frame* worden genoemd.
 
 #Invoegen van objecten#
 ##Betegelde achtergrond##
 
-Het eerste wat we willen is een herhalende achtergrond tegel. De *Genoemd Background* object kan dit voor ons doen. Allereerst, is hier je achtergrondtextuur - klik erop met de rechtermuisknop en sla het ergens op je computer op ( wel onthouden, je hebt deze straks weer nodig):
+Het eerste wat we willen is een herhalende achtergrond tegel. Het *Tiled Background* object kan dit voor ons doen. Allereerst, is hier je achtergrondtextuur - klik erop met de rechtermuisknop en sla het ergens op je computer op (wel onthouden, je hebt deze straks weer nodig):
 
 ![The Tiled Background texture](https://www.scirra.com/images/articles/bg.png)
 
-Nu, **dubbel klik**  in de lay-out om een nieuw object in te voegen. (Later, als het vol is, kunt u ook met de rechtermuisknop openen en kies *Insert new object*.) Zodra de *Insert new object* dialoogvenster verschijnt, ** dubbelklik op de titel Background object** om deze te plaatsen.
+**Dubbel klik** nu in de lay-out om een nieuw object toe te voegen. (Als de hele layout straks gevuld is, kun je via de rechtermuisknop kiezen voor *Insert new object*.) Zodra het *Insert new object* dialoogvenster verschijnt, **dubbelklik je op het Tiled Background object** om deze te plaatsen.
 
-[The Insert New Object dialog.][4]
+![The Insert New Object dialog.](https://www.scirra.com/images/articles/insertobject.png)
 
-Er verschijnt een vizier voor u om aan te geven waar je het object wilt plaatsen. Klik ergens in de buurt van het midden van de lay-out. De *textuur editor* opent, voor u om de textuur van de tegels in te voeren. Laten we de foto importeren die we eerder hebben opgeslagen. Klik op het map pictogram om een textuur te laden, U kunt het vinden waar u het bestand had neergezet bij het downloaden en selecteer de textuur.
+Er verschijnt een kruisje om aan te geven waar je het object kunt plaatsen. Klik ergens in de buurt van het midden van de lay-out. De *texture editor* opent, zodat je de texture van de tegels kunt invoeren. Laten we het plaatje importeren dzg we eerder hebben opgeslagen. Klik op het map icoontje om een textuur te openen, zoek de lokatie van het opgslagen bestand (de download lokatie) en selecteer de textuur.
 
-[Load texture from file][5]
+![Load texture from file](https://www.scirra.com/images/articles/loadtexturefromfile.png)
 
-Sluit de textuur editor door te klikken op de X in de rechterbovenhoek. Als er om wordt gevraagd, zorg ervoor dat u eerst save`t! Nu moet u uw betegelde achtergrond object zien in de lay-out. Laten we het formaat wijzigen om de gehele lay-out te dekken. Zorg ervoor dat het is geselecteerd, dan is de *Properties Bar* links moeten alle instellingen voor het object zien, waaronder de grootte en positie. Stel de positie in op 0, 0 (linksboven in de lay-out), en de grootte 1280, 1024 (de grootte van de lay-out).
+Sluit de texture editor door op de X in de rechterbovenhoek te klikken. Als je erom wordt gevraagd, sla je werk dan op! Nu moet je het Tiled Background object zien in de lay-out. Laten we het formaat van de achtergrond wijzigen zodat het de gehele lay-out bedekt. Zorg ervoor dat het is geselecteerd, zodat de *Properties Bar*, links, alle instellingen voor het object laat zien, waaronder de grootte en positie. Stel de positie in op 0, 0 (linksboven in de lay-out), en de grootte 1280,1024 (de grootte van de lay-out).
 
-[Tiled Background properties][6]
+![Tiled Background properties](https://www.scirra.com/images/articles/tiledproperties.png)
 
-Een overzicht maken van ons werk. Houd ** controle ** en scroll het ** muiswiel naar beneden ** om uit te zoomen. Of klik * uitzicht - uitzoomt * een paar keer. U kunt ook de middelste muisknop, of space bar ingedrukt houden, om rond te kijken. Netjes, Uw betegelde achtergrond bedekt de gehele lay-out nu:
+Laten we ons werk een bekijken. Houd **control** ingedrukt en scroll het **muiswiel naar beneden** om uit te zoomen. Of klik een paar keer op *view - zoom out*. Je kunt ook de middelste muisknop, of de spatie ingedrukt houden om rond te kijken. Gaaf hè? Je betegelde achtergrond bedekt de gehele lay-out nu:
 
-[The inserted tiled background.][7]
+![The inserted tiled background.](https://www.scirra.com/images/articles/tiledui.jpg)
 
-Hit control + 0 of klik * view - zoom tot 100% * om terug te keren naar 1: 1 view.
+Druk op *control+0* of klik *view - zoom to 100%* om terug te keren naar het 1:1 overzicht.
 
-* (Als je ongeduldig bent zoals ik, op het pictogram kleine 'run' in de titelbalk van het venster -! Een browser  pop-up en zal  lay-out tonen    Woo) *==========
+*(Als je ongeduldig bent zoals ik, klik op het kleine 'run' icoontje in de titelbalk van het venster - Een browser opent zich en zal je jouw lay-out tonen! Woo!
+
 #Een laag toevoegen#
 
 Oké, nu willen we wat meer objecten toevoegen. Echter, gaan we steeds per ongeluk de betegelde achtergrond selecteren, tenzij we achtergrond * op slot * doen, waardoor het niet meer selecteerbaar is. Laten we gebruik maken van de gelaagdheid systeem om dit te doen.
